@@ -6,7 +6,7 @@
 // input (of any type)
 .form-control {
     background-image: none; // Reset unusual Firefox-on-Android default style
-    border: $border-width solid $border-color;
+    border: $border-width solid transparent;
     border-radius: $border-radius;
     color: $text-color;
     display: block;
