@@ -1,7 +1,7 @@
 // Colors
 // -------------------------------------------------------------------
 // Grayscale
-$gray-base:               #75818c !default;
+$gray-base:               #4a5472 !default;
 
 $black:                   #000 !default;
 $darkest-gray:            darken($gray-base, 36%) !default;
@@ -16,7 +16,7 @@ $white:                   #fff !default;
 $green:                   #6fbb57 !default;
 $orange:                  #f0ad4e !default;
 
-$blue:                    #1F4FE0 !default;
+$blue:                    #294ace !default;
 $turquoise:               #4FD5B3 !default;
 $red:                     #F87E73 !default;
 $yellow:                  #FFC242 !default;
@@ -49,21 +49,21 @@ $font-family--code:       $monospace !default;
 
 // Type scale
 // Good tool: http://type-scale.com/
-$h1:                      3.375rem !default;
-$h2:                      2.25rem !default;
-$h3:                      1.5rem !default;
+$h1:                      4.236rem !default;
+$h2:                      2.618rem !default;
+$h3:                      1.618rem !default;
 $h4:                      1rem !default;
-$h5:                      .667rem !default;
-$h6:                      .667rem !default;
+$h5:                      .618rem !default;
+$h6:                      .618rem !default;
 
 // Finer control over type scale after certain breakpoint (off by default)
 $responsive-type:         false !default;
-$h1--desktop:             3.375rem !default;
-$h2--desktop:             2.25rem !default;
-$h3--desktop:             1.5rem !default;
+$h1--desktop:             4.236rem !default;
+$h2--desktop:             2.618rem !default;
+$h3--desktop:             1.618rem !default;
 $h4--desktop:             1rem !default;
-$h5--desktop:             .667rem !default;
-$h6--desktop:             .667rem !default;
+$h5--desktop:             .618rem !default;
+$h6--desktop:             .618rem !default;
 
 // Text color
 $text-color:              $dark-gray !default;
@@ -92,7 +92,8 @@ $breakpoint--md:          50em !default;
 $breakpoint--lg:          60em !default;
 
 // Max container width
-$max-container-width:     1100px !default;
+$max-container-width:     900px !default;
+$lg-max-container-width:  1100px !default;
 
 
 // Spaces
@@ -103,7 +104,7 @@ $space-3:                 $baseline*8 !default;
 $space-4:                 $baseline*11 !default;
 
 // Specific margins
-$p-mb:                    $space-2 !default;
+$p-mb:                    $space-1 !default;
 $heading-mb:              $p-mb !default;
 
 
@@ -128,7 +129,7 @@ $form-padding:            .45rem .8rem .35rem !default;
 
 // Borders
 // -------------------------------------------------------------------
-$border-color:            $light-gray !default;
+$border-color:            $lightest-gray !default;
 $border-style:            solid !default;
 $border-radius:           3px !default;
 $border-width:            1px !default;
