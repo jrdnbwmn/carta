@@ -50,7 +50,11 @@
 
     .align--center-on-mobile {
         text-align: center !important;
-    } 
+    }
+
+    .no-m-on-mobile {
+        margin: 0 !important;
+    }
 }
 
 
