@@ -17,7 +17,6 @@
 .link:hover,
 .link:focus {
     color: $link-hover-color;
-    text-decoration: underline;
 }
 
 .default-links a:active,
@@ -26,4 +25,8 @@
     color: $active-link-color;
     outline: 0;
     transition: color $fade;
+}
+
+.link--text {
+    border-bottom: 1px solid $primary-color;
 }

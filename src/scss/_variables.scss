@@ -12,19 +12,14 @@ $lightest-gray:           lighten($gray-base, 36%) !default;
 $white:                   #fff !default;
 
 // Hues
-
-$green:                   #6fbb57 !default;
-$orange:                  #f0ad4e !default;
-
-$blue:                    #294ace !default;
-$turquoise:               #4FD5B3 !default;
-$red:                     #F87E73 !default;
-$yellow:                  #FFC242 !default;
+$blue:                    #294ACE !default;
+$turquoise:               #69F0AE !default;
+$red:                     #FF5252 !default;
 
 // Color scheme
 $primary-color:           $blue !default;
-$secondary-color:         $yellow !default;
-$tertiary-color:          $turquoise !default;
+$secondary-color:         $turquoise !default;
+$tertiary-color:          $red !default;
 
 
 // Baseline
@@ -49,15 +44,15 @@ $font-family--code:       $monospace !default;
 
 // Type scale
 // Good tool: http://type-scale.com/
-$h1:                      4.236rem !default;
-$h2:                      2.618rem !default;
-$h3:                      1.618rem !default;
+$h1:                      2.1rem !default;
+$h2:                      1.8rem !default;
+$h3:                      1.3rem !default;
 $h4:                      1rem !default;
 $h5:                      .618rem !default;
 $h6:                      .618rem !default;
 
 // Finer control over type scale after certain breakpoint (off by default)
-$responsive-type:         false !default;
+$responsive-type:         true !default;
 $h1--desktop:             4.236rem !default;
 $h2--desktop:             2.618rem !default;
 $h3--desktop:             1.618rem !default;
@@ -69,7 +64,7 @@ $h6--desktop:             .618rem !default;
 $text-color:              $dark-gray !default;
 
 // Text sizes
-$font-size--mobile:       15px !default;
+$font-size--mobile:       14px !default;
 $font-size--desktop:      16px !default;
 $font-size--lg:           $h3 !default;
 $font-size--sm:           $h5 !default;
@@ -112,19 +107,19 @@ $heading-mb:              $p-mb !default;
 // -------------------------------------------------------------------
 // Link colors
 $link-color:              $primary-color !default;
-$link-hover-color:        darken($primary-color, 10%) !default;
-$active-link-color:       darken($primary-color, 25%) !default;
+$link-hover-color:        darken($link-color, 10%) !default;
+$active-link-color:       darken($link-color, 25%) !default;
 
 
 // Buttons
 // -------------------------------------------------------------------
-$button-padding:          .55rem 1.8rem .45rem !default;
+$button-padding:          .65rem 2.2rem .55rem !default;
 $button-padding--sm:      .1rem .6rem 0 !default;
 
 
 // Forms
 // -------------------------------------------------------------------
-$form-padding:            .55rem .8rem .45rem !default;
+$form-padding:            .65rem .8rem .55rem !default;
 
 
 // Borders

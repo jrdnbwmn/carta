@@ -45,7 +45,8 @@
 
     @media screen and (max-width: $breakpoint--sm) {
         display: block;
-        margin-bottom: $space-1;
+        margin-top: $space-1;
+        width: 100%;
     }
 }
 
@@ -85,43 +86,21 @@ a.btn {
     }
 }
 
-// Outline button
-.btn--outline,
-.btn--outline:visited {
-    background-color: transparent;
-    border-color: $border-color;
-    border-width: $border-width;
+// Secondary button
+.btn--secondary,
+.btn--secondary:visited {
+    background-color: $secondary-color;
+    border-color: $secondary-color;
     color: $text-color;
 
     &:hover,
     &:focus {
-        background-color: transparent;
-        border-color: $dark-gray;
+        background-color: darken($secondary-color, 10%);
+        border-color: darken($secondary-color, 10%);
     }
 
     &:active {
-        background-color: transparent;
-        border-color: $light-gray;
-    }
-}
-
-// Dark background button
-.btn--dark-bg {
-    background-color: transparent;
-    border-color: $white;
-    border-width: $border-width;
-    color: $white;
-
-    &:hover,
-    &:focus {
-        background-color: $white;
-        border-color: $white;
-        color: $text-color;
-    }
-
-    &:active {
-        background-color: $lightest-gray;
-        border-color: $lightest-gray;
-        color: $text-color;
+        background-color: darken($secondary-color, 20%);
+        border-color: darken($secondary-color, 20%);
     }
 }
