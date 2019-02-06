@@ -7,7 +7,7 @@ Say hello to Carta, a modern, illustrated site template.
 Demo images from [Unsplash](https://unsplash.com/).
 Icons from [Entypo](http://entypo.com/).
 
-## Files
-The plain HTML and CSS files are in the main directory.
+## Instructions
+For local development, run `npm install` on the main directory and then `gulp` to get BrowserSync going along with all the Gulp tasks (see [Pear](https://github.com/jrdnbwmn/Pear)).
 
-For the Gulp/Sass development setup, use the files in `dev` and the instructions for [Pear](https://github.com/jrdnbwmn/Pear).
+You can then work on the files in `src` and everything will be compiled into `dist`.
