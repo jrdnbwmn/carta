@@ -1,7 +1,7 @@
 # Carta
 Say hello to Carta, a modern, illustrated site template.
 
-[eatapapaya.com](https://www.eatapapaya.com)
+[Papaya](https://www.papayatemplates.com)
 [@jrdnbwmn](https://www.twitter.com/jrdnbwmn)
 
 Demo images from [Unsplash](https://unsplash.com/).
@@ -10,4 +10,4 @@ Icons from [Entypo](http://entypo.com/).
 ## Instructions
 For local development, run `npm install` on the main directory and then `gulp` to get BrowserSync going along with all the Gulp tasks (see [Pear](https://github.com/jrdnbwmn/Pear)).
 
-You can then work on the files in `src` and everything will be compiled into `dist`.
+Development files are in `src`. Everything is compiled into `dist`—that’s where all your final files reside.

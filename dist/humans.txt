@@ -4,8 +4,13 @@
 # TEAM
 
     Designer/Developer: Jordan Bowman
+    https://www.papayatemplates.com
     @jrdnbwmn
-    eatapapaya.com
+    desk@jrdnbwmn.com
+
+# THANKS
+
+    <name>
 
 # TECHNOLOGY COLOPHON
 
